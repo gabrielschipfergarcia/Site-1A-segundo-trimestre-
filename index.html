@@ -40,16 +40,19 @@
         <h2>A Verdadeira e confiável Hilux</h2> 
         <p>A maior de todas </p> 
         <p>Por: Alemão</p> 
-        <button> 🗿<span>0</span><button>
+        <button> 👍<span>0</span><button>
+        <button> 👎<span>0</span><button></button>
     </main> 
 </body>
 <script>
-    const botao = document.querySelector ("button");
+    const botoes = document.querySelectorall ("main button");
+    botoes.forEach(function (botao) {}
     botao.addEventListener ("click",botaoClicado);
     funtion botaoClicado () {
         console.log ("fui clicado");
         let texto = botao.querySelector ("span");
         text.content++;
     }
+});
     <script>
 </html>
